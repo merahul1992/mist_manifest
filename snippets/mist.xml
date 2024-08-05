@@ -46,6 +46,9 @@
   <project path="device/mist/sepolicy" name="device_mist_sepolicy" remote="mist" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" groups="qcom,sdm660" remote="mist"  />
 
+  <!-- Fading Layout -->
+  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="mist" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="mist" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="mist" />
@@ -94,6 +97,7 @@
   <project path="packages/apps/PocketMode" name="packages_apps_PocketMode" remote="mist" />
   <project path="packages/apps/Pif" name="packages_apps_Pif" remote="mist" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="mist" />
+  <project path="packages/apps/OmniStyles" name="packages_apps_OmniStyle" remote="mist" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="mist" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="mist" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="mist" />
