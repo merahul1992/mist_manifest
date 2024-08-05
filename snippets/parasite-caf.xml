@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Device repos -->
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" revision="lineage-21.0-caf-sm8550" remote="lineage" />
-
+  
   <!-- Vendor repos - QCOM -->
   <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="parasite" />
 </manifest>
