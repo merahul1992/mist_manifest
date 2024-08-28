@@ -20,6 +20,11 @@
            fetch="https://gitea.com/MistOS/"
            revision="qpr3" />
 
+  <!-- Gitea -->
+  <remote name="gapps"
+          fetch="https://gitea.com/clarencelol/"
+          revision="14-QPR3" />
+
   <!-- Rootdir -->
   <project path="manifest" name="manifest" remote="mist" />
   <project path="mist-maintainers" name="mist-maintainers" remote="mist" />
@@ -116,6 +121,6 @@
   <project path="vendor/mist" name="vendor_mist" remote="mist" />
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="mist" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="mist" />
-  <project path="vendor/gms" name="vendor_gms" remote="mist-gitea" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="gapps" clone-depth="1" />
   <project path="vendor/support" name="vendor_support" remote="mist" />
 </manifest>
